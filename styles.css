@@ -1,0 +1,37 @@
+body{
+	background: #401f3e;
+}
+
+.number{
+	width: 25px;
+	height: 25px;
+	background: white;
+	padding:5px;
+	margin: 5px;
+	text-align: center;
+	display: inline-block;
+
+}
+
+.cold{
+	background: #453f78;
+}
+
+.warm{
+	background: #773e6b;
+
+}
+
+.hot{
+	background: #a32d54;
+}
+
+.container{
+	width: 800px;
+	margin: auto;
+	padding: 150px;
+}
+
+#game{
+	text-align: center;
+}
