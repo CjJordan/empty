@@ -9,7 +9,9 @@ function keyRelease(event){
 	console.log("target", target);
 
 	//determine color
+
 	if(Math.abs(target - input) < 6){
+
 		console.log("red")
 	}else if(Math.abs(target - input) < 7){
 		console.log("pink")
