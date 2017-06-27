@@ -9,9 +9,9 @@ function keyRelease(event){
 	console.log("target", target);
 
 	//determine color
-	if(Math.abs(target - input) < 3){
+	if(Math.abs(target - input) < 4){
 		console.log("red")
-	}else if(Math.abs(target - input) < 5){
+	}else if(Math.abs(target - input) < 7){
 		console.log("pink")
 	}else if(Math.abs(target - input) > 4){
 		console.log("blue");
